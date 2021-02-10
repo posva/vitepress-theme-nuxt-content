@@ -1,3 +1,4 @@
+import './main.css'
 import Layout from './Layout.vue'
 
 /** @typedef {import('vitepress').Theme} */

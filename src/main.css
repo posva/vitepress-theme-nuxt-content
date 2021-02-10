@@ -11,13 +11,6 @@
   display: block;
 }
 
-body {
-  /* color: red; */
-  & > h1 {
-    color: blue;
-  }
-}
-
 .nuxt-content {
   @apply break-words;
 

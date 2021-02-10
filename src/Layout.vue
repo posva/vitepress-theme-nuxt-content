@@ -7,9 +7,9 @@
 </template>
 
 <script>
+// import './main.css'
+
 export default {}
 </script>
 
 <style scoped></style>
-
-<style src="./main.css"></style>
