@@ -1,4 +1,6 @@
 import './main.css'
+import './dank-mono.css'
+import './code-theme.css'
 import Layout from './Layout.vue'
 import AppColorSwitcher from './components/AppColorSwitcher.vue'
 import Alert from './components/Alert.vue'
