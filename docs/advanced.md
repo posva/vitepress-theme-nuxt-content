@@ -1,3 +1,10 @@
+---
+title: Advanced
+description: 'Learn advanced usage of @nuxt/content module.'
+position: 7
+category: Getting started
+---
+
 ## Programmatic Usage
 
 `$content` is accessible from **@nuxt/content**.

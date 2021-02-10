@@ -5,6 +5,7 @@ import Alert from './components/Alert.vue'
 import CodeGroup from './components/CodeGroup.vue'
 import CodeBlock from './components/CodeBlock.vue'
 import List from './components/List.vue'
+import { reactive } from 'vue'
 
 /** @type {import('vitepress').Theme} */
 const theme = {
@@ -17,6 +18,11 @@ const theme = {
     app.component('CodeGroup', CodeGroup)
     app.component('CodeBlock', CodeBlock)
     app.component('List', List)
+
+    app.config.globalProperties.settings = reactive({
+      // TODO: computed
+      layout: 'default',
+    })
   },
 }
 

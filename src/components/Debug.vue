@@ -2,6 +2,7 @@
   <div class="debug" :class="{ open }" ref="el" @click="open = !open">
     <p class="title">Debug</p>
 
+    <pre class="block">route {{ route }}</pre>
     <pre class="block">$page {{ $page }}</pre>
     <pre class="block">$siteByRoute {{ $siteByRoute }}</pre>
     <pre class="block">$site {{ $site }}</pre>
@@ -9,10 +10,12 @@
 </template>
 
 <script setup lang="ts">
+import { useRoute } from 'vitepress'
 import { ref, watch } from 'vue'
 
 const el = ref<HTMLElement | null>(null)
 const open = ref(false)
+const route = useRoute()
 
 watch(open, (value) => {
   if (value === false) {

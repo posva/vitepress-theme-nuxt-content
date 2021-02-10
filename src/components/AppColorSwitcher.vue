@@ -5,3 +5,15 @@
     </button>
   </span>
 </template>
+
+<script>
+import { onMounted } from 'vue'
+export default {
+  setup() {
+    onMounted(() => {
+      // TODO: remove hack
+      document.body.parentElement.classList.add('dark-mode')
+    })
+  },
+}
+</script>

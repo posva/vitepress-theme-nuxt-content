@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Eduardo San Martin Morote",
   "license": "MIT",
+  "files": [
+    "src"
+  ],
   "scripts": {
     "build:css": "NODE_ENV=production tailwind build src/main.css -o dist/main.css",
     "docs": "vitepress dev docs",
