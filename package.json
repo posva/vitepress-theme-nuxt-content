@@ -1,0 +1,16 @@
+{
+  "name": "vitepress-theme-nuxt-content",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Eduardo San Martin Morote",
+  "license": "MIT",
+  "scripts": {
+    "docs": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.4",
+    "vitepress": "^0.12.0"
+  }
+}
