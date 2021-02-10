@@ -5,6 +5,7 @@
   "author": "Eduardo San Martin Morote",
   "license": "MIT",
   "scripts": {
+    "build:css": "NODE_ENV=production tailwind build src/main.css -o dist/main.css",
     "docs": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"

@@ -1,14 +1,22 @@
 <template>
-  <h1>Custom Layout</h1>
+  <div class="pt-16">
+    <!-- <AppHeader /> -->
 
-  <Content />
+    <main class="container mx-auto px-4 lg:px-8">
+      <div class="flex flex-wrap relative">
+        <!-- <AppNav /> -->
+
+        <Content class="w-full lg:w-4/5" />
+      </div>
+    </main>
+
+    <!-- <AppFooter /> -->
+  </div>
 
   <Debug />
 </template>
 
 <script>
-// import './main.css'
-
 export default {}
 </script>
 
